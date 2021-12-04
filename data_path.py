@@ -1,8 +1,8 @@
 import os
 
-# disk_location = "E:/AI-VR dataset"
+disk_location = "D:/"
 # disk_location = "/Volumes/New Volume/AI-VR dataset"
-disk_location = "/Volumes/Seagate Backup "
+# disk_location = "/Volumes/Seagate Backup "
 
 
 
