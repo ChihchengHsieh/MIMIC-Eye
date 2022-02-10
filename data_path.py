@@ -19,4 +19,5 @@ EYEGAZE_FOLDER_PATH = os.path.join(
 REFLACX_FOLDER_PATH = os.path.join(disk_location, "reflacx-reports-and-eye-tracking-data-for-localization-of-abnormalities-in-chest-x-rays-1.0.0")
 XAMI_MIMIC_PATH = os.path.join(disk_location, "XAMI-MIMIC")
 # XAMI_MIMIC_PATH = "./XAMI-MIMIC"
-XAMI_SPREADSHEET_FOLDER_PATH = os.path.join(XAMI_MIMIC_PATH, "speadsheets")
+XAMI_SPREADSHEET_FOLDER_PATH = os.path.join(XAMI_MIMIC_PATH, "spreadsheets")
+    
