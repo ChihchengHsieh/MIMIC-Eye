@@ -67,3 +67,4 @@ In the root folder, The folders are arranged according to the patient's id. The 
 1. Radiology report from MIMIC-CXR.
 2. The data from each module. 
 3. Only include the JPG file but not the DICOM.
+4. gaze data from REFLACX and EyeGaze
