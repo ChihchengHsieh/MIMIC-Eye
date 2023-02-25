@@ -1,7 +1,7 @@
 import os
 
-disk_location = "E:/"
-# disk_location = "/Users/jrhs/Desktop/"
+# disk_location = "E:/"
+disk_location = "/Users/jrhs/Desktop/"
 
 # /Users/jrhs/Desktop/
 # disk_location = "/Volumes/Seagate Backup "
