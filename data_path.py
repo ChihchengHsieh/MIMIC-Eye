@@ -1,6 +1,6 @@
 import os
 
-disk_location = "E:/"
+disk_location = "D:\\"
 # disk_location = "/Users/jrhs/Desktop/"
 
 # /Users/jrhs/Desktop/
@@ -9,16 +9,16 @@ disk_location = "E:/"
 
 
 # Define the path for all of the folders.
-PHYSIONET_PATH = os.path.join(disk_location, "physionet.org/files/")
-ED_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimic-iv-ed/2.0/ed/")
-MIMICIV_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimiciv/2.0/")
-ICU_FOLDER_PATH = os.path.join(MIMICIV_FOLDER_PATH, "icu/")
-HOSP_FOLDER_PATH = os.path.join(MIMICIV_FOLDER_PATH, "hosp/")
+PHYSIONET_PATH = os.path.join(disk_location, "physionet.org","files")
+ED_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimic-iv-ed", "2.0","ed")
+MIMICIV_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimiciv", "2.0")
+ICU_FOLDER_PATH = os.path.join(MIMICIV_FOLDER_PATH, "icu")
+HOSP_FOLDER_PATH = os.path.join(MIMICIV_FOLDER_PATH, "hosp")
 CXR_DICOM_FOLDER_PATH = os.path.join(PHYSIONET_PATH, )
-CXR_JPG_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimic-cxr-jpg/2.0.0")
-EYEGAZE_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "egd-cxr/1.0.0/")
-REFLACX_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "reflacx-xray-localization/1.0.0/")
-CXR_REPORT_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimic-cxr-reports/")
+CXR_JPG_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimic-cxr-jpg", "2.0.0")
+EYEGAZE_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "egd-cxr", "1.0.0")
+REFLACX_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "reflacx-xray-localization", "1.0.0")
+CXR_REPORT_FOLDER_PATH = os.path.join(PHYSIONET_PATH, "mimic-cxr-reports")
 
 # Store place.
 
